@@ -1,0 +1,21 @@
+name: nightstand_aod
+description: Простой AOD с часами
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  wakelock_plus: ^1.2.0  # Для always-on экрана
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
+  fonts:
+    - family: OpenDyslexicNerd
+      fonts:
+        - asset: assets/fonts/OpenDyslexicMNerdFont-Regular.otf
