@@ -1,21 +1,39 @@
-name: nightstand_aod
-description: Простой AOD с часами
+name: nightstand_aod_clock
+description: Minimal always-on display clock for Android with dyslexia-friendly font
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.4.0 <4.0.0'
+  flutter: ">=3.24.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  wakelock_plus: ^1.2.0  # Для always-on экрана
+  wakelock_plus: ^1.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
 
 flutter:
   uses-material-design: true
+
   assets:
     - assets/fonts/
+    - assets/icons/
+
   fonts:
     - family: OpenDyslexicNerd
       fonts:
         - asset: assets/fonts/OpenDyslexicMNerdFont-Regular.otf
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon.png"
+  min_sdk_android: 21
+  # adaptive_icon_background: "#000000"  # Раскомментируй, если хочешь чёрный фон для адаптивной иконки
+  # adaptive_icon_foreground: "assets/icons/icon_foreground.png"
