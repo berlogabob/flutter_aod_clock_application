@@ -76,7 +76,9 @@ Distributed under the MIT License. See LICENSE for more information.
 ## ❤️ Acknowledgments / Inspiration
 
 OpenDyslexic Nerd Font – dyslexia-friendly + patched icons
+
 wakelock_plus – reliable always-on
+
 Flutter community & simple nightstand clock ideas
 
 Made with ❤️ in Lisbon by @berlogabob
