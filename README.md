@@ -1,4 +1,5 @@
 # flutter_aod_clock_application
+
 <div align="center">
 
 # Nightstand AOD Clock
@@ -43,9 +44,8 @@ Big readable time → perfect as nightstand / wireless charging screen / modem s
 
 ## 🚀 Quick Start
 
-
-
 🛠️ Project Structure
+
 ```text
 textflutter_aod_clock_application/
 ├── assets/
@@ -57,13 +57,27 @@ textflutter_aod_clock_application/
 └── README.md
 ```
 
-🔧 Dependencies
+## 🔧 Dependencies
+
 PackagePurposeVersionwakelock_plusKeep screen always on^1.2.0+flutter (sdk)Core framework≥3.24
 No other external packages – kept ultra-simple.
 
+## 🎨 Customization (easy edits in main.dart)
 
-🎨 Customization (easy edits in main.dart)
 Change font family: fontFamily: 'OpenDyslexicNerd'
 Adjust letter spacing: letterSpacing: -12
 Base font size: fontSize: 300 (then FittedBox scales it)
 Colors: currently pure black + white – easy to make themes
+
+## 📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
+
+## ❤️ Acknowledgments / Inspiration
+
+OpenDyslexic Nerd Font – dyslexia-friendly + patched icons
+wakelock_plus – reliable always-on
+Flutter community & simple nightstand clock ideas
+
+Made with ❤️ in Lisbon by @berlogabob
+Star ⭐ if you find it useful!
