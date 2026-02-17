@@ -71,9 +71,11 @@ class _ClockScreenState extends State<ClockScreen> {
                 child: FittedBox(
                   fit: BoxFit.contain, // scales down to fit both width & height
                   child: SizedBox(
-                    width: constraints.maxWidth *
+                    width:
+                        constraints.maxWidth *
                         1.1, // slight oversize → forces scaling
-                    height: constraints.maxHeight *
+                    height:
+                        constraints.maxHeight *
                         0.85, // leave ~15% margin top/bottom
                     child: FittedBox(
                       fit: BoxFit.scaleDown, // or fitWidth if you prefer wider
