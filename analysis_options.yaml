@@ -1,1 +1,30 @@
 include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    missing_required_param: error
+    missing_return: error
+    dead_code: warning
+    invalid_annotation_target: ignore
+
+linter:
+  rules:
+    # Style
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_locals
+    - prefer_single_quotes
+    - require_trailing_commas
+    - sort_child_properties_last
+    - use_super_parameters
+    # Safety
+    - avoid_dynamic_calls
+    - avoid_print
+    - cancel_subscriptions
+    - close_sinks
+    - unawaited_futures
+    # Readability
+    - always_declare_return_types
+    - avoid_redundant_argument_values
+    - prefer_if_null_operators
+    - unnecessary_null_checks

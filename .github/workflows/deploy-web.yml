@@ -1,0 +1,48 @@
+name: Deploy Web → GitHub Pages
+
+on:
+  push:
+    branches:
+      - main          # Trigger on every push to main
+  workflow_dispatch:  # Allow manual trigger from GitHub UI
+
+permissions:
+  contents: write     # Needed to commit /docs back to main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Full history needed for commit
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Run analysis
+        run: flutter analyze
+
+      - name: Build Flutter Web
+        run: |
+          flutter build web \
+            --release \
+            --base-href "/flutter_aod_clock_application/" \
+            --output docs
+
+      - name: Commit & push /docs to main
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/
+          # Only commit if there are changes
+          git diff --cached --quiet || git commit -m "ci: rebuild web [skip ci]"
+          git push

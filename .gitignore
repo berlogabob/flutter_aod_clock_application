@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Docs folder is tracked — rebuilt by CI (GitHub Pages served from /docs)
+# Uncomment to ignore locally if you don't build web:
+# /docs/
