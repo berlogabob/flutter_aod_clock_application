@@ -1,35 +1,29 @@
-# flutter_aod_clock_application
+# Nightstand AOD Clock
 
 <div align="center">
 
-# Nightstand AOD Clock
-
 **Minimal always-on display clock for Android**  
-Big readable time → perfect as nightstand / wireless charging screen / modem stand
+Big readable time — perfect as nightstand / wireless charging screen / modem stand
 
 [![Flutter](https://img.shields.io/badge/Flutter-3.24+-02569B?logo=flutter&logoColor=white)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.5+-0175C2?logo=dart&logoColor=white)](https://dart.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/«your-username»/flutter_aod_clock_application?style=social)](https://github.com/«your-username»/flutter_aod_clock_application)
-
-<img src="https://via.placeholder.com/400x800/000000/FFFFFF?text=App+Screenshot+%7C+14%3A37" alt="Screenshot of the app showing large time on black background" width="320"/>
-
-*(Replace with real screenshot – take one on your phone!)*
+[![Dart](https://img.shields.io/badge/Dart-3.11+-0175C2?logo=dart&logoColor=white)](https://dart.dev)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 </div>
 
-<br/>
+---
 
 ## ✨ Features
 
-- Huge, readable time in center (HH:mm format)
-- Always-on screen (prevents device sleep)
-- Custom Nerd Font support (using **OpenDyslexicMNerdFont-Regular** for dyslexia-friendly reading)
-- Pure black AMOLED-friendly background
-- Extremely lightweight & battery-efficient when charging
-- Portrait-only layout – optimized for vertical phone placement
+- **Huge, readable time** in center (HH:mm format)
+- **Always-on screen** (prevents device sleep via wakelock)
+- **Dyslexia-friendly font** — OpenDyslexicM Nerd Font
+- **Pure black AMOLED background** — great for battery life when display is on
+- **Fullscreen / immersive mode** — no status/navigation bars
+- **AMOLED burn-in prevention** — subtle pixel-shift every 5 minutes
+- **Portrait-only layout** — optimised for vertical phone placement on nightstand
 
-<br/>
+---
 
 ## 📱 Platforms
 
@@ -37,49 +31,130 @@ Big readable time → perfect as nightstand / wireless charging screen / modem s
 |-------------|-----------|---------------------------------------|
 | Android     | ✅ Yes    | Main target (always-on works best)   |
 | iOS         | ⚠ Partial | Wakelock may be restricted           |
-| Web         | ❌ No     | Not useful for always-on use-case    |
-| Windows/macOS/Linux | ❌ No | Desktop not targeted               |
+| Web / Desktop | ❌ No   | Not useful for always-on use-case    |
 
-<br/>
+---
 
 ## 🚀 Quick Start
 
-🛠️ Project Structure
+```bash
+# Clone
+git clone https://github.com/berlogabob/flutter_aod_clock_application.git
+cd flutter_aod_clock_application
 
-```text
-textflutter_aod_clock_application/
+# Install dependencies
+flutter pub get
+
+# Run on connected Android device
+flutter run --release
+```
+
+---
+
+## 🛠️ Project Structure
+
+```
+flutter_aod_clock_application/
 ├── assets/
-│   └── fonts/
-│       └── OpenDyslexicMNerdFont-Regular.otf   # Your custom font
+│   ├── fonts/
+│   │   └── OpenDyslexicMNerdFont-Regular.otf   # The only font used
+│   └── icons/
+│       └── icon.png
 ├── lib/
-│   └── main.dart                               # All code in one file (minimal)
+│   └── main.dart                               # All app code (minimal single file)
+├── android/                                    # Android-specific configuration
 ├── pubspec.yaml
+├── analysis_options.yaml
 └── README.md
 ```
 
+---
+
 ## 🔧 Dependencies
 
-PackagePurposeVersionwakelock_plusKeep screen always on^1.2.0+flutter (sdk)Core framework≥3.24
-No other external packages – kept ultra-simple.
+| Package | Purpose | Version |
+|---------|---------|---------|
+| `wakelock_plus` | Keep screen always on | ^1.2.0 |
+| `flutter` (sdk) | Core framework | ≥3.24 |
 
-## 🎨 Customization (easy edits in main.dart)
+No other external packages — kept ultra-simple.
 
-Change font family: fontFamily: 'OpenDyslexicNerd'
-Adjust letter spacing: letterSpacing: -12
-Base font size: fontSize: 300 (then FittedBox scales it)
-Colors: currently pure black + white – easy to make themes
+---
+
+## 🎨 Customization
+
+Easy edits in [`lib/main.dart`](lib/main.dart):
+
+| Property | Description |
+|----------|-------------|
+| `fontFamily: 'OpenDyslexicNerd'` | Change the font family |
+| `letterSpacing: -12` | Adjust spacing between digits |
+| `fontSize: 300` | Base font size (FittedBox scales it) |
+| `color: Colors.white` | Text colour on black background |
+
+---
 
 ## 📄 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE) for more information.
 
-## ❤️ Acknowledgments / Inspiration
+---
 
-OpenDyslexic Nerd Font – dyslexia-friendly + patched icons
+## ❤️ Acknowledgments
 
-wakelock_plus – reliable always-on
+- [OpenDyslexic Nerd Font](https://github.com/ryanoasis/nerd-fonts) — dyslexia-friendly font with Nerd Font icons
+- [wakelock_plus](https://pub.dev/packages/wakelock_plus) — reliable always-on screen
+- Flutter community & simple nightstand clock ideas
 
-Flutter community & simple nightstand clock ideas
-
-Made with ❤️ in Lisbon by @berlogabob
+Made with ❤️ in Lisbon by [@berlogabob](https://github.com/berlogabob)
 Star ⭐ if you find it useful!
+
+---
+
+## 📦 Release Process
+
+### Automated Release (Recommended)
+
+Use `make release` to automatically:
+1. Bump build number in `pubspec.yaml`
+2. Build web version to `/docs`
+3. Build release APK
+4. Commit changes and create git tag
+5. GitHub Actions automatically creates GitHub Release with APK attached
+
+```bash
+# Full release pipeline
+make release
+
+# Check current version
+make version
+```
+
+### Manual Release for Existing Tags
+
+If tags exist but GitHub Releases are missing:
+
+```bash
+# Option 1: Using GitHub CLI (requires gh installed and authenticated)
+make release-manual TAG=v1.0.1.5
+
+# Option 2: Using script (requires GITHUB_TOKEN)
+export GITHUB_TOKEN=your_github_token_here
+make create-missing-releases
+```
+
+### Getting GitHub Token
+
+1. Go to https://github.com/settings/tokens
+2. Create new token with `repo` scope
+3. Export: `export GITHUB_TOKEN=ghp_xxxxx`
+
+### APK Download
+
+Release APKs are attached to GitHub Releases:
+https://github.com/berlogabob/flutter_aod_clock_application/releases
+
+### Obtanium Integration
+
+This app supports [Obtanium](https://github.com/ImranR98/Obtainium) for automatic updates.
+Add the repository URL to Obtanium to receive update notifications.
