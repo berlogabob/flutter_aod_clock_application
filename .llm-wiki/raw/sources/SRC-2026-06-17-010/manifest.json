@@ -1,0 +1,11 @@
+{
+  "id": "SRC-2026-06-17-010",
+  "captured": "2026-06-17",
+  "packet_version": "1.0",
+  "title": "Immersive Mode.md",
+  "file_path": "docs_vault/Terms/Immersive Mode.md",
+  "format": "markdown",
+  "extractor": "passthrough",
+  "extraction_status": "success",
+  "content_type": "text/markdown"
+}

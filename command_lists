@@ -1,0 +1,1 @@
+flutter clean && flutter pub get && dart fix --apply && dart format . && flutter build web && flutter build apk

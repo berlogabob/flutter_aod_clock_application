@@ -1,0 +1,11 @@
+{
+  "id": "SRC-2026-06-17-008",
+  "captured": "2026-06-17",
+  "packet_version": "1.0",
+  "title": "Burn-in.md",
+  "file_path": "docs_vault/Terms/Burn-in.md",
+  "format": "markdown",
+  "extractor": "passthrough",
+  "extraction_status": "success",
+  "content_type": "text/markdown"
+}

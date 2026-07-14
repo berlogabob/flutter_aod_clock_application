@@ -1,0 +1,131 @@
+{
+  "concepts/accessibility-orientation": [],
+  "concepts/accessibility": [],
+  "concepts/always-on-display-aod": [],
+  "concepts/amoled-optimization-burn-in-prevention": [],
+  "concepts/aod-always-on-display": [],
+  "concepts/burn-in-prevention-jitter": [],
+  "concepts/burn-in-prevention": [],
+  "concepts/burn-in": [],
+  "concepts/dyslexia-friendly-design": [],
+  "concepts/dyslexic-font": [],
+  "concepts/fittedbox-layout": [],
+  "concepts/font-accessibility": [],
+  "concepts/graphics-rendering": [],
+  "concepts/immersive-mode-sticky": [],
+  "concepts/immersive-mode": [],
+  "concepts/immersive-mode3": [],
+  "concepts/immersive-ui": [],
+  "concepts/jitter-logic": [],
+  "concepts/jitter": [],
+  "concepts/minimum-viable-aesthetic": [],
+  "concepts/reactive-update-pattern": [],
+  "concepts/sticky-immersive-mode": [],
+  "concepts/timer-management": [],
+  "concepts/wakelock": [],
+  "concepts/widget-architecture": [],
+  "entities/amoled": [],
+  "entities/android": [],
+  "entities/canvaskit": [],
+  "entities/colorsblack": [],
+  "entities/dart": [],
+  "entities/flutter": [],
+  "entities/ios": [],
+  "entities/linux": [],
+  "entities/macos": [],
+  "entities/nightstand-aod-clock": [],
+  "entities/nightstandaodclock": [],
+  "entities/oled": [],
+  "entities/opendyslexic-font": [],
+  "entities/opendyslexic": [],
+  "entities/opendyslexicnerd": [],
+  "entities/skia": [],
+  "entities/skiacanvaskit": [],
+  "entities/wakelockplus": [],
+  "entities/web": [],
+  "entities/windows": [],
+  "sources/SRC-2026-06-17-001": [
+    "concepts/burn-in-prevention",
+    "concepts/jitter",
+    "concepts/reactive-update-pattern",
+    "concepts/widget-architecture",
+    "entities/linux",
+    "entities/macos",
+    "entities/opendyslexicnerd",
+    "entities/web",
+    "entities/windows",
+    "sources/SRC-2026-06-17-001"
+  ],
+  "sources/SRC-2026-06-17-002": [
+    "concepts/font-accessibility",
+    "concepts/immersive-mode-sticky",
+    "concepts/jitter-logic",
+    "concepts/minimum-viable-aesthetic",
+    "entities/android",
+    "entities/flutter",
+    "entities/ios",
+    "sources/SRC-2026-06-17-002"
+  ],
+  "sources/SRC-2026-06-17-003": [
+    "concepts/accessibility",
+    "concepts/amoled-optimization-burn-in-prevention",
+    "concepts/fittedbox-layout",
+    "concepts/immersive-ui",
+    "concepts/timer-management",
+    "entities/colorsblack",
+    "entities/opendyslexic-font",
+    "sources/SRC-2026-06-17-003"
+  ],
+  "sources/SRC-2026-06-17-004": [
+    "concepts/aod-always-on-display",
+    "concepts/burn-in",
+    "concepts/dyslexic-font",
+    "concepts/immersive-mode3",
+    "concepts/wakelock",
+    "entities/canvaskit",
+    "entities/opendyslexic",
+    "entities/skia",
+    "sources/SRC-2026-06-17-004"
+  ],
+  "sources/SRC-2026-06-17-005": [
+    "concepts/accessibility-orientation",
+    "concepts/always-on-display-aod",
+    "entities/dart",
+    "entities/nightstandaodclock",
+    "entities/skiacanvaskit",
+    "entities/wakelockplus",
+    "sources/SRC-2026-06-17-005"
+  ],
+  "sources/SRC-2026-06-17-006": [
+    "concepts/burn-in-prevention-jitter",
+    "concepts/dyslexia-friendly-design",
+    "concepts/sticky-immersive-mode",
+    "entities/nightstand-aod-clock",
+    "sources/SRC-2026-06-17-006"
+  ],
+  "sources/SRC-2026-06-17-007": [
+    "sources/SRC-2026-06-17-007"
+  ],
+  "sources/SRC-2026-06-17-008": [
+    "entities/amoled",
+    "entities/oled",
+    "sources/SRC-2026-06-17-008"
+  ],
+  "sources/SRC-2026-06-17-009": [
+    "sources/SRC-2026-06-17-009"
+  ],
+  "sources/SRC-2026-06-17-010": [
+    "concepts/immersive-mode",
+    "sources/SRC-2026-06-17-010"
+  ],
+  "sources/SRC-2026-06-17-011": [
+    "sources/SRC-2026-06-17-011"
+  ],
+  "sources/SRC-2026-06-17-012": [
+    "concepts/graphics-rendering",
+    "sources/SRC-2026-06-17-012"
+  ],
+  "sources/SRC-2026-06-17-013": [
+    "sources/SRC-2026-06-17-013"
+  ]
+}

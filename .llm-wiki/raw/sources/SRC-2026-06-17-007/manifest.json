@@ -1,0 +1,11 @@
+{
+  "id": "SRC-2026-06-17-007",
+  "captured": "2026-06-17",
+  "packet_version": "1.0",
+  "title": "AOD (Always-on Display).md",
+  "file_path": "docs_vault/Terms/AOD (Always-on Display).md",
+  "format": "markdown",
+  "extractor": "passthrough",
+  "extraction_status": "success",
+  "content_type": "text/markdown"
+}

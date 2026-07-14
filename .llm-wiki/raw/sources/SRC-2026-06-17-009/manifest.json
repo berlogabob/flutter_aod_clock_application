@@ -1,0 +1,11 @@
+{
+  "id": "SRC-2026-06-17-009",
+  "captured": "2026-06-17",
+  "packet_version": "1.0",
+  "title": "Dyslexic Font.md",
+  "file_path": "docs_vault/Terms/Dyslexic Font.md",
+  "format": "markdown",
+  "extractor": "passthrough",
+  "extraction_status": "success",
+  "content_type": "text/markdown"
+}

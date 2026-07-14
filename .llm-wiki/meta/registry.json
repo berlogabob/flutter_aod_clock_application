@@ -1,0 +1,554 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-06-17T14:14:19.344Z",
+  "pages": {
+    "concepts/accessibility-orientation": {
+      "type": "concept",
+      "title": "accessibility-orientation",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "concepts/accessibility": {
+      "type": "concept",
+      "title": "accessibility",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "concepts/always-on-display-aod": {
+      "type": "concept",
+      "title": "always-on-display-aod",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "concepts/amoled-optimization-burn-in-prevention": {
+      "type": "concept",
+      "title": "amoled-optimization-burn-in-prevention",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "concepts/aod-always-on-display": {
+      "type": "concept",
+      "title": "aod-always-on-display",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "concepts/burn-in-prevention-jitter": {
+      "type": "concept",
+      "title": "burn-in-prevention-jitter",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-006]]"
+      ]
+    },
+    "concepts/burn-in-prevention": {
+      "type": "concept",
+      "title": "burn-in-prevention",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "concepts/burn-in": {
+      "type": "concept",
+      "title": "burn-in",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "concepts/dyslexia-friendly-design": {
+      "type": "concept",
+      "title": "dyslexia-friendly-design",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-006]]"
+      ]
+    },
+    "concepts/dyslexic-font": {
+      "type": "concept",
+      "title": "dyslexic-font",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "concepts/fittedbox-layout": {
+      "type": "concept",
+      "title": "fittedbox-layout",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "concepts/font-accessibility": {
+      "type": "concept",
+      "title": "font-accessibility",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "concepts/graphics-rendering": {
+      "type": "concept",
+      "title": "graphics-rendering",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-012]]"
+      ]
+    },
+    "concepts/immersive-mode-sticky": {
+      "type": "concept",
+      "title": "immersive-mode-sticky",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "concepts/immersive-mode": {
+      "type": "concept",
+      "title": "immersive-mode",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-010]]"
+      ]
+    },
+    "concepts/immersive-mode3": {
+      "type": "concept",
+      "title": "immersive-mode3",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "concepts/immersive-ui": {
+      "type": "concept",
+      "title": "immersive-ui",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "concepts/jitter-logic": {
+      "type": "concept",
+      "title": "jitter-logic",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "concepts/jitter": {
+      "type": "concept",
+      "title": "jitter",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "concepts/minimum-viable-aesthetic": {
+      "type": "concept",
+      "title": "minimum-viable-aesthetic",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "concepts/reactive-update-pattern": {
+      "type": "concept",
+      "title": "reactive-update-pattern",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "concepts/sticky-immersive-mode": {
+      "type": "concept",
+      "title": "sticky-immersive-mode",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-006]]"
+      ]
+    },
+    "concepts/timer-management": {
+      "type": "concept",
+      "title": "timer-management",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "concepts/wakelock": {
+      "type": "concept",
+      "title": "wakelock",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "concepts/widget-architecture": {
+      "type": "concept",
+      "title": "widget-architecture",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "entities/amoled": {
+      "type": "entity",
+      "title": "amoled",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-008]]"
+      ]
+    },
+    "entities/android": {
+      "type": "entity",
+      "title": "android",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "entities/canvaskit": {
+      "type": "entity",
+      "title": "canvaskit",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "entities/colorsblack": {
+      "type": "entity",
+      "title": "colorsblack",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "entities/dart": {
+      "type": "entity",
+      "title": "dart",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "entities/flutter": {
+      "type": "entity",
+      "title": "flutter",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "entities/ios": {
+      "type": "entity",
+      "title": "ios",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-002]]"
+      ]
+    },
+    "entities/linux": {
+      "type": "entity",
+      "title": "linux",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "entities/macos": {
+      "type": "entity",
+      "title": "macos",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "entities/nightstand-aod-clock": {
+      "type": "entity",
+      "title": "nightstand-aod-clock",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-006]]"
+      ]
+    },
+    "entities/nightstandaodclock": {
+      "type": "entity",
+      "title": "nightstandaodclock",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "entities/oled": {
+      "type": "entity",
+      "title": "oled",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-008]]"
+      ]
+    },
+    "entities/opendyslexic-font": {
+      "type": "entity",
+      "title": "opendyslexic-font",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-003]]"
+      ]
+    },
+    "entities/opendyslexic": {
+      "type": "entity",
+      "title": "opendyslexic",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "entities/opendyslexicnerd": {
+      "type": "entity",
+      "title": "opendyslexicnerd",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "entities/skia": {
+      "type": "entity",
+      "title": "skia",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-004]]"
+      ]
+    },
+    "entities/skiacanvaskit": {
+      "type": "entity",
+      "title": "skiacanvaskit",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "entities/wakelockplus": {
+      "type": "entity",
+      "title": "wakelockplus",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-005]]"
+      ]
+    },
+    "entities/web": {
+      "type": "entity",
+      "title": "web",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "entities/windows": {
+      "type": "entity",
+      "title": "windows",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "sources": [
+        "[[sources/SRC-2026-06-17-001]]"
+      ]
+    },
+    "sources/SRC-2026-06-17-001": {
+      "type": "source",
+      "title": "SRC-2026-06-17-001",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-001",
+      "raw_path": "raw/sources/SRC-2026-06-17-001/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-002": {
+      "type": "source",
+      "title": "SRC-2026-06-17-002",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-002",
+      "raw_path": "raw/sources/SRC-2026-06-17-002/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-003": {
+      "type": "source",
+      "title": "SRC-2026-06-17-003",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-003",
+      "raw_path": "raw/sources/SRC-2026-06-17-003/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-004": {
+      "type": "source",
+      "title": "SRC-2026-06-17-004",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-004",
+      "raw_path": "raw/sources/SRC-2026-06-17-004/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-005": {
+      "type": "source",
+      "title": "SRC-2026-06-17-005",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-005",
+      "raw_path": "raw/sources/SRC-2026-06-17-005/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-006": {
+      "type": "source",
+      "title": "SRC-2026-06-17-006",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-006",
+      "raw_path": "raw/sources/SRC-2026-06-17-006/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-007": {
+      "type": "source",
+      "title": "SRC-2026-06-17-007",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-007",
+      "raw_path": "raw/sources/SRC-2026-06-17-007/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-008": {
+      "type": "source",
+      "title": "SRC-2026-06-17-008",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-008",
+      "raw_path": "raw/sources/SRC-2026-06-17-008/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-009": {
+      "type": "source",
+      "title": "SRC-2026-06-17-009",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-009",
+      "raw_path": "raw/sources/SRC-2026-06-17-009/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-010": {
+      "type": "source",
+      "title": "SRC-2026-06-17-010",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-010",
+      "raw_path": "raw/sources/SRC-2026-06-17-010/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-011": {
+      "type": "source",
+      "title": "SRC-2026-06-17-011",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-011",
+      "raw_path": "raw/sources/SRC-2026-06-17-011/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-012": {
+      "type": "source",
+      "title": "SRC-2026-06-17-012",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-012",
+      "raw_path": "raw/sources/SRC-2026-06-17-012/extracted.md",
+      "captured": "2026-06-17",
+      "status": "ingested"
+    },
+    "sources/SRC-2026-06-17-013": {
+      "type": "source",
+      "title": "SRC-2026-06-17-013",
+      "created": "2026-06-17",
+      "updated": "2026-06-17",
+      "format": "markdown",
+      "source_id": "SRC-2026-06-17-013",
+      "raw_path": "raw/sources/SRC-2026-06-17-013/extracted.md",
+      "captured": "2026-06-17",
+      "status": "skeleton"
+    }
+  }
+}
